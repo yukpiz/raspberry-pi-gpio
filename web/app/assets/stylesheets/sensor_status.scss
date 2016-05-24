@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=VT323);
+
+body {
+  font-family: 'VT323', ;
+  font-size: 15pt;
+  background-color: #404040;
+  color: #ccc;
+
+  h2 {
+    padding: 0;
+    margin: 10px 0 10px 0;
+  }
+
+  h4 {
+    margin: 0 0 5px 10px;
+  }
+
+  .current_box, .average_box,
+  .highest_box, .lowest_box {
+    float: left;
+    width: 25%;
+    height: 100px;
+
+    div {
+      span:first-child {
+        padding-left: 19px;
+      }
+    }
+  }
+
+  .chart_box {
+    .line_chart {
+      float: left;
+      width: 50%;
+      height: 400px;
+    }
+  }
+}

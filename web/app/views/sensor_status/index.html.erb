@@ -1,0 +1,34 @@
+<content>
+  <h2>Room Status</h2>
+
+  <div class="current_box">
+    <h4>[Current]</h4>
+    <%= render "layouts/current_temperature" %>
+    <%= render "layouts/current_humidity" %>
+    <%= render "layouts/current_brightness" %>
+  </div>
+
+  <div class="average_box">
+    <h4>[Average]</h4>
+    <%= render "layouts/average_temperature" %>
+    <%= render "layouts/average_humidity" %>
+  </div>
+
+  <div class="highest_box">
+    <h4>[Highest]</h4>
+    <%= render "layouts/highest_temperature" %>
+    <%= render "layouts/highest_humidity" %>
+  </div>
+
+  <div class="lowest_box">
+    <h4>[Lowest]</h4>
+    <%= render "layouts/lowest_temperature" %>
+    <%= render "layouts/lowest_humidity" %>
+  </div>
+
+  <%= javascript_include_tag "https://www.gstatic.com/charts/loader.js" %>
+  <div class="chart_box">
+    <%= render "layouts/line_chart1" %>
+    <%= render "layouts/line_chart2" %>
+  </div>
+</content>
