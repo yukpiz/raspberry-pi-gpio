@@ -1,0 +1,29 @@
+#!/bin/sh
+
+echo "Clear GPIO :2"; sudo echo 2 > /sys/class/gpio/unexport
+echo "Clear GPIO :3"; sudo echo 3 > /sys/class/gpio/unexport
+echo "Clear GPIO :4"; sudo echo 4 > /sys/class/gpio/unexport
+echo "Clear GPIO :5"; sudo echo 5 > /sys/class/gpio/unexport
+echo "Clear GPIO :6"; sudo echo 6 > /sys/class/gpio/unexport
+echo "Clear GPIO :7"; sudo echo 7 > /sys/class/gpio/unexport
+echo "Clear GPIO :8"; sudo echo 8 > /sys/class/gpio/unexport
+echo "Clear GPIO :9"; sudo echo 9 > /sys/class/gpio/unexport
+echo "Clear GPIO :10"; sudo echo 10 > /sys/class/gpio/unexport
+echo "Clear GPIO :11"; sudo echo 11 > /sys/class/gpio/unexport
+echo "Clear GPIO :12"; sudo echo 12 > /sys/class/gpio/unexport
+echo "Clear GPIO :13"; sudo echo 13 > /sys/class/gpio/unexport
+echo "Clear GPIO :14"; sudo echo 14 > /sys/class/gpio/unexport
+echo "Clear GPIO :15"; sudo echo 15 > /sys/class/gpio/unexport
+echo "Clear GPIO :16"; sudo echo 16 > /sys/class/gpio/unexport
+echo "Clear GPIO :17"; sudo echo 17 > /sys/class/gpio/unexport
+echo "Clear GPIO :18"; sudo echo 18 > /sys/class/gpio/unexport
+echo "Clear GPIO :19"; sudo echo 19 > /sys/class/gpio/unexport
+echo "Clear GPIO :20"; sudo echo 20 > /sys/class/gpio/unexport
+echo "Clear GPIO :21"; sudo echo 21 > /sys/class/gpio/unexport
+echo "Clear GPIO :22"; sudo echo 22 > /sys/class/gpio/unexport
+echo "Clear GPIO :23"; sudo echo 23 > /sys/class/gpio/unexport
+echo "Clear GPIO :24"; sudo echo 24 > /sys/class/gpio/unexport
+echo "Clear GPIO :25"; sudo echo 25 > /sys/class/gpio/unexport
+echo "Clear GPIO :26"; sudo echo 26 > /sys/class/gpio/unexport
+echo "Clear GPIO :27"; sudo echo 27 > /sys/class/gpio/unexport
+
